@@ -11,7 +11,7 @@ export default function Home() {
       <h1 className="sr-only">Jose Rivas</h1>
       <div id={'home'} className={'bg-white h-[calc(100vh)] flex items-center justify-center'}>
         <animated.div style={props}>
-          <h2 className={'p-4 text-jr-blue font-bold text-center'}>Improving lives<br />through Technology</h2>
+          <h2 className={'p-4 text-jr-blue font-bold text-center'}>Improving lives<br /><span className={'text-jr-dark'}>through</span> Technology</h2>
         </animated.div>
       </div>
       <div id={'experience'} className={'bg-jr-yellow h-[calc(100vh)] flex items-center justify-center'}>
